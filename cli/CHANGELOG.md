@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.4](https://github.com/protobufjs/protobuf.js/compare/protobufjs-cli-v2.0.3...protobufjs-cli-v2.0.4) (2026-04-29)
+
+
+### Bug Fixes
+
+* Consistently handle scalar map keys ([#2186](https://github.com/protobufjs/protobuf.js/issues/2186)) ([29b1183](https://github.com/protobufjs/protobuf.js/commit/29b11834520bc4ab0bb377933e4efefbf95f93b2))
+* Generate TypeScript class properties for extensions ([#2187](https://github.com/protobufjs/protobuf.js/issues/2187)) ([ec04bee](https://github.com/protobufjs/protobuf.js/commit/ec04bee4a1aada80083d504f0c879dee6e293799))
+* Merge singular message fields while decoding ([#2195](https://github.com/protobufjs/protobuf.js/issues/2195)) ([14d9df7](https://github.com/protobufjs/protobuf.js/commit/14d9df796af789aca5ad7a54c67d9be8b84a818a))
+
 ## [2.0.3](https://github.com/protobufjs/protobuf.js/compare/protobufjs-cli-v2.0.2...protobufjs-cli-v2.0.3) (2026-04-28)
 
 

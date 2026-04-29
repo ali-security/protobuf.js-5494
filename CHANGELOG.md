@@ -1,5 +1,20 @@
 # Changelog
 
+## [8.0.4](https://github.com/protobufjs/protobuf.js/compare/protobufjs-v8.0.3...protobufjs-v8.0.4) (2026-04-29)
+
+
+### Bug Fixes
+
+* Apply oneof last-value wins during decode ([#2193](https://github.com/protobufjs/protobuf.js/issues/2193)) ([cf35cdc](https://github.com/protobufjs/protobuf.js/commit/cf35cdc23237c06e7de603fa8fe36e47b7c037e0))
+* Consistently handle scalar map keys ([#2186](https://github.com/protobufjs/protobuf.js/issues/2186)) ([29b1183](https://github.com/protobufjs/protobuf.js/commit/29b11834520bc4ab0bb377933e4efefbf95f93b2))
+* Decode bool values from full varints ([#2192](https://github.com/protobufjs/protobuf.js/issues/2192)) ([7b8d5c1](https://github.com/protobufjs/protobuf.js/commit/7b8d5c111a5e517be219872fb36f4dcfe2b6d371))
+* Decode fields by full wire tag ([#2197](https://github.com/protobufjs/protobuf.js/issues/2197)) ([f6264b1](https://github.com/protobufjs/protobuf.js/commit/f6264b1890e85885a22fa323d983f46b6ba9a05e))
+* Generate TypeScript class properties for extensions ([#2187](https://github.com/protobufjs/protobuf.js/issues/2187)) ([ec04bee](https://github.com/protobufjs/protobuf.js/commit/ec04bee4a1aada80083d504f0c879dee6e293799))
+* Merge singular message fields while decoding ([#2195](https://github.com/protobufjs/protobuf.js/issues/2195)) ([14d9df7](https://github.com/protobufjs/protobuf.js/commit/14d9df796af789aca5ad7a54c67d9be8b84a818a))
+* Read non-minimal 32-bit varints correctly ([#2198](https://github.com/protobufjs/protobuf.js/issues/2198)) ([5650a07](https://github.com/protobufjs/protobuf.js/commit/5650a07301752f37a1c294e71574b50ef9d55eb4))
+* Support proto2 extension groups ([#2181](https://github.com/protobufjs/protobuf.js/issues/2181)) ([1039194](https://github.com/protobufjs/protobuf.js/commit/103919422de361935d99a2bb92ead9ca749f0b17))
+* Validate field and group tags while decoding ([#2200](https://github.com/protobufjs/protobuf.js/issues/2200)) ([c09d4f7](https://github.com/protobufjs/protobuf.js/commit/c09d4f74c1c9d33f2cb3971110f2af4fe51dff93))
+
 ## [8.0.3](https://github.com/protobufjs/protobuf.js/compare/protobufjs-v8.0.2...protobufjs-v8.0.3) (2026-04-27)
 
 
